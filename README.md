@@ -2,7 +2,7 @@
 
 The algorithm that I have chosen to solve the challenge is Sieve of Eratosthenes.
 Below you can see a benchmark table of other algorithms tried.
-The code for Sieve of Eratosthenes is in src/eratosthenes.ts
+The code for Sieve of Eratosthenes is in [src/eratosthenes.ts](https://github.com/bog-Ardidi/balfour-beatty-challenge/blob/main/src/eratosthenes.ts)
 
 <br>
 
@@ -18,7 +18,7 @@ Benchmark is calculated by taking the average of 10 runs.
 
 <br>
 
-## Running instructions
+## Running instructions
 
 ```
     1. Clone the project
@@ -27,9 +27,13 @@ Benchmark is calculated by taking the average of 10 runs.
     4. npx ts-node src/[fileName]
 ```
 
+<br>
+
 By default the program will run with 100 as the Max number.
 You can pass command line arguments to change the Max number.
 Only one argument and only unsigned integer are allowed.
+
+<br>
 
 ```
     Example:
